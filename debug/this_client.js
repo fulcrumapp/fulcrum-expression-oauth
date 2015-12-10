@@ -2,8 +2,8 @@ var oauthRequest = require('../');
 var credentials = require('./credentials');
 
 var options = {
-  consumerSecret: credentials.key,
-  tokenSecret: credentials.secret,
+  consumerKey: credentials.key,
+  consumerSecret: credentials.secret,
   url: 'http://api.v3.factual.com/t/products-cpg-nutrition',
   qs: {
     include_count: 't',

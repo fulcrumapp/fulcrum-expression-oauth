@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/fulcrumapp/fulcrum-expression-oauth",
   "dependencies": {
-    "ohauth": "^0.2.1",
-    "request": "^2.67.0"
+    "ohauth": "0.2.1"
   }
 }
