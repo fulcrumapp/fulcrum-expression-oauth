@@ -1,6 +1,6 @@
 {
   "name": "@fulcrum/fulcrum-expression-oauth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An oauth patch that uses Fulcrum's special REQUEST method in fulcrum expressions",
   "main": "index.js",
   "scripts": {
