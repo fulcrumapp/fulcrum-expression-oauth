@@ -26,9 +26,7 @@ function oauthRequest(options, callback) {
   options.headers = options.headers || {};
   options.headers['Authorization'] = auth(method, options.url, qs);
 
-  var request = (typeof REQUEST === 'undefined' ? require('request') : REQUEST);
-
-  request(options, callback);
+  REQUEST(options, callback);
 }
 
 module.exports = oauthRequest;
